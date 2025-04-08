@@ -25,10 +25,15 @@ Those are basically...
 
 
 Now we talked about the basics, let's dive into more technical details!
+
 The core of the Fearsome is user-mode dll, which determines if the process is malicious or not.
+
 But it's not a magic and not bullet-proof, still Advanced Persistent Threat actors can be able to adjust their code to bypass Fearsome's mechanic.
+
 The problem is, in order to evade from Fearsome, you have to make ransomware slower. So ransomware must sacrifice from it's speed.
+
 And also there is a second bypass method, which is directly calling syscall or checking and patching first byte of the hooked function. Example: (if JMP is in the first line of the NtWriteFile, call patch();)
+
 More detailed information about the second bypass method:
 
 https://malwaretech.com/2023/12/an-introduction-to-bypassing-user-mode-edr-hooks.html
