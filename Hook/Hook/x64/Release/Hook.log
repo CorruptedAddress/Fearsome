@@ -1,0 +1,19 @@
+﻿  dllmain.cpp
+C:\Users\undefined\Desktop\Hook\Hook\dllmain.cpp(256,9): warning C4005: 'MAX_WRITE_COUNT': macro redefinition
+      C:\Users\undefined\Desktop\Hook\Hook\dllmain.cpp(47,9):
+      see previous definition of 'MAX_WRITE_COUNT'
+  
+C:\Users\undefined\Desktop\Hook\Hook\dllmain.cpp(257,9): warning C4005: 'TIME_LIMIT': macro redefinition
+      C:\Users\undefined\Desktop\Hook\Hook\dllmain.cpp(48,9):
+      see previous definition of 'TIME_LIMIT'
+  
+C:\Users\undefined\Desktop\Hook\Hook\dllmain.cpp(639,38): warning C4311: 'type cast': pointer truncation from 'void *' to 'DWORD'
+C:\Users\undefined\Desktop\Hook\Hook\dllmain.cpp(639,38): warning C4302: 'type cast': truncation from 'void *' to 'DWORD'
+C:\Users\undefined\Desktop\Hook\Hook\dllmain.cpp(639,59): warning C4311: 'type cast': pointer truncation from 'void *' to 'DWORD'
+C:\Users\undefined\Desktop\Hook\Hook\dllmain.cpp(639,59): warning C4302: 'type cast': truncation from 'void *' to 'DWORD'
+  Generating code
+  129 of 510 functions (25.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    23 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Hook.vcxproj -> C:\Users\undefined\Desktop\Hook\x64\Release\Hook.dll
