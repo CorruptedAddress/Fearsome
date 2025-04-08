@@ -2,9 +2,11 @@
 Bleeding Edge Runtime Ransomware Detection &amp; Termination Tool Without Relying on Signatures
 
 **Still Work In Progress Project**
+
 *Please report any bugs you found*
 
 **How It Works**
+
 First of all, Fearsome has three parts to work on.
 Those are basically...
 
@@ -15,6 +17,7 @@ Those are basically...
   - Fearsome user-mode DLL hooks NtWriteFile function and keeps track of opened files. If any unusual activity is detected, write a log file and terminate it!
 
 **Last but not least, InitFearsome**
+
   While developing this application, I wanted it to be portable and more easier to use. (I'm kinda lazy actually... why should I right-click and run as Administrator twice for both x64 and x86 builds while I can use a single executable to lunch both?)
   Well, InitFearsome literally starts both architecture versions of the Fearsome DLL Injector.
 
