@@ -19,6 +19,7 @@ Those are basically...
 **Last but not least, InitFearsome**
 
   While developing this application, I wanted it to be portable and more easier to use. (I'm kinda lazy actually... why should I right-click and run as Administrator twice for both x64 and x86 builds while I can use a single executable to lunch both?)
+  
   Well, InitFearsome literally starts both architecture versions of the Fearsome DLL Injector.
 
 
