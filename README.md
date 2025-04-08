@@ -56,7 +56,7 @@ Fearsome is a hobby project I begin to code after thinking about if it's possibl
   It's important to change DLL Injector's process name (don't forget to modify InitFearsome to lunch brand-new named DLL Injector) so Threat-Actor will not kill the process and stop dll injection.  
   Or you can adjust some code to set this process critical, so it'll BSOD whenever Threat-Actor tries to terminate DLL Injector process.  
   But still it may possible to inject dll and break how DLL Injector works, so making it Protected Process Light does the trick!  
-  Also there may be few ransomwares which fix NtWriteFile and bypass the hooked function, so it's best to use Fearsome with already existing EDR / AV solution.  
+  Also there may be few ransomwares which fix NtWriteFile and bypass the hooked function, so it's best to use Fearsome with already existing EDR / AV solution which can detect direct suspicious syscalls.  
 
   Since me, the single developer of Fearsome is a student and has limited time, this project may get updates slower (or not at all actually... But I'll try to help community!).  
   It's kinda hard to maintain it, I can't focus and code the entire day anymore... Yeah, I made most code of Fearsome in 3 days non-break coding session (literally sleeping and coding).
