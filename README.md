@@ -60,7 +60,7 @@ Fearsome is a hobby project I begin to code after thinking about if it's possibl
   
   Also there may be few ransomwares which fix NtWriteFile and bypass the hooked function, so it's best to use Fearsome with already existing EDR / AV solution.
 
-
+  _________________________________________________________
   
   W.I.P. / Still writing the README.md || Please Check Later
 
