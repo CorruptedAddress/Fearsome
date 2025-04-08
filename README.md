@@ -31,6 +31,7 @@ And also there is a second bypass method, which is directly calling syscall or c
 More detailed information about the second bypass method:
 
 https://malwaretech.com/2023/12/an-introduction-to-bypassing-user-mode-edr-hooks.html
+
 https://www.ired.team/offensive-security/defense-evasion/using-syscalls-directly-from-visual-studio-to-bypass-avs-edrs
 
 
@@ -40,17 +41,23 @@ Fearsome is a hobby project I begin to code after thinking about if it's possibl
 # Pwned Ransomwares
   
   Well, I'm really proud about the performance of this application!
-  It literally blocks almost every ransomware sample I've tried on MalwareBazaar and Vx-Underground!
+  It literally blocks almost every ransomware sample I've tried on MalwareBazaar and VX-Underground!
   
   It destroys most common and powerful ransomwares such as **LockBit**, **Akira**, **Conti**, **Sodinokibi**, **BlackByte** and so on... without any signature detection!
   So Fearsome combats-back when EDR / AV solution is not enough to detect newly and specially crafted ransomwares which evades EDR / AV software.
   Detection is not only limited with new ransomwares, but classic old ones such as **WannaCry** and so on!
 
+  In the source-code, I'll provide a zip file with the *infected* as password.
+  Inside this zip file, there will be some ransomwares I've tried and be successful (also there is one ransomware sample where Fearsome unable to detect and neutralize).
+
 # Limitations
 
   It's important to change DLL Injector's process name (don't forget to modify InitFearsome to lunch brand-new named DLL Injector) so Threat-Actor will not kill the process and stop dll injection.
+  
   Or you can adjust some code to set this process critical, so it'll BSOD whenever Threat-Actor tries to terminate DLL Injector process.
+  
   But still it may possible to inject dll and break how DLL Injector works, so making it Protected Process Light does the trick!
+  
   Also there may be few ransomwares which fix NtWriteFile and bypass the hooked function, so it's best to use Fearsome with already existing EDR / AV solution.
 
 
