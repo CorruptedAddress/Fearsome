@@ -1,0 +1,74 @@
+﻿  main.c
+C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(39,41): warning C4133: 'function': incompatible types - from 'WCHAR [260]' to 'const char *'
+C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(60,14): warning C4090: 'function': different 'const' qualifiers
+C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(82,24): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'WCHAR *'
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(82,24):
+      consider using '%ls' in the format string
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(82,24):
+      consider using '%lls' in the format string
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(82,24):
+      consider using '%Ls' in the format string
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(82,24):
+      consider using '%ws' in the format string
+  
+C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(85,24): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'WCHAR *'
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(85,24):
+      consider using '%ls' in the format string
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(85,24):
+      consider using '%lls' in the format string
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(85,24):
+      consider using '%Ls' in the format string
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(85,24):
+      consider using '%ws' in the format string
+  
+C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(181,24): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'WCHAR *'
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(181,24):
+      consider using '%ls' in the format string
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(181,24):
+      consider using '%lls' in the format string
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(181,24):
+      consider using '%Ls' in the format string
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(181,24):
+      consider using '%ws' in the format string
+  
+C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(188,12): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'WCHAR *'
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(188,12):
+      consider using '%ls' in the format string
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(188,12):
+      consider using '%lls' in the format string
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(188,12):
+      consider using '%Ls' in the format string
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(188,12):
+      consider using '%ws' in the format string
+  
+C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(151,11): warning C4101: 'dwPriorityClass': unreferenced local variable
+C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(224,70): warning C4047: 'function': 'SIZE_T' differs in levels of indirection from 'void *'
+C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(224,70): warning C4024: 'CreateRemoteThread': different types for formal and actual parameter 3
+C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(224,150): warning C4047: 'function': 'DWORD' differs in levels of indirection from 'void *'
+C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(224,150): warning C4024: 'CreateRemoteThread': different types for formal and actual parameter 6
+C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(259,12): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'TCHAR *'
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(259,12):
+      consider using '%ls' in the format string
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(259,12):
+      consider using '%lls' in the format string
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(259,12):
+      consider using '%Ls' in the format string
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(259,12):
+      consider using '%ws' in the format string
+  
+C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(259,12): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 3 has type 'TCHAR *'
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(259,12):
+      consider using '%ls' in the format string
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(259,12):
+      consider using '%lls' in the format string
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(259,12):
+      consider using '%Ls' in the format string
+      C:\Users\undefined\Desktop\DllInjector\DllInjector\main.c(259,12):
+      consider using '%ws' in the format string
+  
+  Generating code
+  0 of 7 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  DllInjector.vcxproj -> C:\Users\undefined\Desktop\DllInjector\Release\DllInjector.exe
