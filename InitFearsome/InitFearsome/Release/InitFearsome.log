@@ -1,0 +1,15 @@
+﻿  init.c
+D:\FearOfTheRansom\InitFearsome\InitFearsome\init.c(21,14): warning C4133: 'function': incompatible types - from 'TCHAR [260]' to 'char *const '
+D:\FearOfTheRansom\InitFearsome\InitFearsome\init.c(21,89): warning C4474: 'snprintf' : too many arguments passed for format string
+D:\FearOfTheRansom\InitFearsome\InitFearsome\init.c(22,14): warning C4133: 'function': incompatible types - from 'TCHAR [260]' to 'char *const '
+D:\FearOfTheRansom\InitFearsome\InitFearsome\init.c(22,89): warning C4474: 'snprintf' : too many arguments passed for format string
+D:\FearOfTheRansom\InitFearsome\InitFearsome\init.c(28,14): warning C4133: 'function': incompatible types - from 'TCHAR [260]' to 'char *const '
+D:\FearOfTheRansom\InitFearsome\InitFearsome\init.c(29,12): warning C4133: 'function': incompatible types - from 'TCHAR [260]' to 'const char *'
+D:\FearOfTheRansom\InitFearsome\InitFearsome\init.c(31,9): warning C4133: 'function': incompatible types - from 'TCHAR [260]' to 'const char *'
+D:\FearOfTheRansom\InitFearsome\InitFearsome\init.c(32,9): warning C4133: 'function': incompatible types - from 'TCHAR [260]' to 'const char *'
+  Generating code
+  1 of 7 functions (14.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  InitFearsome.vcxproj -> D:\FearOfTheRansom\InitFearsome\Release\InitFearsome.exe
