@@ -53,7 +53,14 @@ Fearsome is a hobby project I begin to code after thinking about if it's possibl
 
 # Limitations
 
-  It's important to change DLL Injector's process name (don't forget to modify InitFearsome to lunch brand-new named DLL Injector) so Threat-Actor will not kill the process and stop dll injection.  
+  LockBit V3 (leaked build) one is also being detected and terminated, but for some reason, it can encrypt kinda lot of files.  
+  I do have a plan to build a mechanism to detect it, like maybe inspecting WriteFile text contents and blacklisting specific RansomNote words.  
+  Since ransomware drops ransom note to each directory, this approach may be powerful.  
+  But actually V3 is being already detected by almost all AV / EDR products. So I changed my mind, I won't write a specific mechanism to detect it.
+
+  
+
+  By the way, it's important to change DLL Injector's process name (don't forget to modify InitFearsome to lunch brand-new named DLL Injector) so Threat-Actor will not kill the process and stop dll injection.  
   Or you can adjust some code to set this process critical, so it'll BSOD whenever Threat-Actor tries to terminate DLL Injector process.  
   But still it may possible to inject dll and break how DLL Injector works, so making it Protected Process Light does the trick!  
   Also there may be few ransomwares which fix NtWriteFile and bypass the hooked function, so it's best to use Fearsome with already existing EDR / AV solution which can detect direct suspicious syscalls.  
