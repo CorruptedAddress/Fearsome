@@ -45,7 +45,7 @@ Fearsome is a hobby project I begin to code after thinking about if it's possibl
   It literally blocks almost every ransomware sample I've tried on MalwareBazaar and VX-Underground!
   
   It destroys most common and powerful ransomwares such as **LockBit**, **Akira**, **Conti**, **Sodinokibi**, **BlackByte** and so on... without any signature detection!  
-  So Fearsome combats-back when EDR / AV solution is not enough to detect newly and specially crafted ransomwares which evades EDR / AV software.  
+  So Fearsome combats-back when EDR / AV solution is not enough to detect newly and specially crafted ransomwares which targets enterprise.  
   Detection is not only limited with new ransomwares, but classic old ones such as **WannaCry** and so on!  
 
   In the source-code, I'll provide a zip file with the *infected* as password.  
