@@ -25,6 +25,12 @@ Those are basically...
 
 Now we talked about the basics, let's dive into more technical details!  
 The core of the Fearsome is user-mode dll, which determines if the process is malicious or not.  
+In order to determine if process is malicious, Fearsome allows ransomware to play with the whatever file it wants in the computer... but with one condition.  
+Monitoring those files and check if files are encrypted (I plan to add entropy check and other checks to determine more accurately).  
+In order to determine, Fearsome uses kinda very basic algorithm.  
+If process tries to modify few .txt / .xlxs like important files (targetted by ransomwares) at the same time (which is a ransomware likely move), process will get flagged as malicious! (It may make some applications get false-positive, also Fearsome breaks Brave Browser for some reason [Note: Browser is not being detected as ransomware, so it's not a false-positive. Brave probably detects user-mode dll hook and terminates itself])  
+Tested and working with Firefox and Edge browser while also works with various of tools such as Office 365 / WinDbg / IDA Pro / Visual Studio etc.
+
 But it's not a magic and not bullet-proof, still Advanced Persistent Threat actors can be able to adjust their code to bypass Fearsome's mechanic.  
 The problem is, in order to evade from Fearsome, you have to make ransomware way more slower. So ransomware must sacrifice from it's speed.  
 And also there is a second bypass method, which is directly calling syscall or checking and patching first byte of the hooked function. Example: (if JMP is in the first line of the NtWriteFile, call patch();)
